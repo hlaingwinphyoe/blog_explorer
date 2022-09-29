@@ -1,0 +1,81 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap');
+
+// Typography
+$font-family-sans-serif: 'Montserrat', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+$primary : #0c6971;
+$border-radius : 1.5rem;
+$btn-padding-x : 1.5rem;
+$border-radius-lg : 2rem;
+$btn-padding-x-lg : 2rem;
+
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Fontawesome
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+// Venobox
+@import "~venobox/dist/venobox.min.css";
+
+
+
+.user-img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.profile-img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: $border-radius;
+}
+
+.cover-img{
+    height: 350px;
+    object-fit: cover;
+}
+
+.cover-img:active{
+    background: #777777;
+}
+
+.h-350{
+    height: 350px;
+}
+
+.post{
+    border-bottom: 1px solid $border-color;
+    padding: 1.5rem;
+}
+
+.post:last-child{
+    border-bottom: none;
+}
+
+.post-description{
+    white-space: pre-line;
+}
+
+.gallery-del{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+.post .gallery-photo{
+    width: 100%;
+    height: 200px;
+    border-radius: $border-radius;
+    object-fit: cover;
+}
+
+.vbox-container img{
+    height: 600px !important;
+}
